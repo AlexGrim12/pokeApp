@@ -1,6 +1,52 @@
-.arena{
-    height: 300px;
-    background-image: url('./fondo.png');
-    background-repeat: no-repeat;
-    background-size: contain;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.arena {
+  display: flex;
+  height: 300px;
+  background-image: url('./fondo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img {
+  height: 150px;
+  position: fixed;
+}
+
+#poke1 {
+  top: 250px;
+  left: 100px;
+}
+
+#poke2 {
+  top: 150px;
+  left: 320px;
+}
+
+button {
+  background-color: #ffffff24;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  width: 80px;
+  border: none;
+  background-color: #ffffff24;
+  color: #fff;
+}
+
+#btnAtacar {
+  background-color: #ff0000;
+  margin: 15px 0 0 65px;
 }
