@@ -50,3 +50,12 @@ input {
   background-color: #ff0000;
   margin: 15px 0 0 65px;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 10px;
+}
